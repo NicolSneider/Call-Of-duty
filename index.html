@@ -1,0 +1,355 @@
+<!-- Los comentarios a lo largo del codigo son muy importantes nos ayudan  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nicol Sneider Murillo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons --> 
+
+
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b></b>Nicol Sneider Murillo</h1>
+    <h6>Bienvenidos a <span class="w3-tag">Mi Pagina </span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="img/-41606476138orpfh1ws3t-removebg-preview.png" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-black">call of duty mobile</h1>
+      <h1 class="w3-jumbo w3-text-black w3-hide-small"><b>¿tegusta el call of duty mobile ?</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">INCRESAR</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>¿que es?</h3>
+          <h5>visita esta pagina para saber mas de este juego 
+              <span class="w3-opacity">:D :)</span>
+          </h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/371441561568825955.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong> call of duty mobile es un poderoso juego</strong>Call of Duty: Mobile es un videojuego de disparos en primera 
+            persona desarrollado por Activision y TiMi Studios de Tencent Games para la plataforma de Android e IOS. Fue lanzado el 
+            1 de octubre de 2019. En su primer mes el juego tuvo más de 148 millones de descargas y generó casi US$ 54 millones en ingresos.
+            1?2? A finales de 2019, el juego ya obtuvo más de 180 millones de descargas en solo tres meses después del lanzamiento, 
+            convirtiéndose en el juego más descargado del cuarto trimestre y el juego más descargado del año.3? Está disponible en varios idiomas,
+            a excepción de las voces, que solo se encuentran en inglés.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Mensajes </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="img/1366_2000.jpeg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Insano 777 <span class="w3-opacity w3-medium">May 3, 2006, 6:32 PM</span></h4>
+                <p>que bueno que hallas creado una paguina Call of Duty para saber mas de el </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Jugabilidad</h3>
+          <h5>Esto te ayuda para que seas mas pro a la hora de jugar Call of Duty <span class="w3-opacity">Victoria</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/80e0f7fa4c85e366d8b3e482e833c6fd.png" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+          <p><strong>Los mapas de battle royale cuentan con hasta 100 jugadores. El jugador puede elegir jugar solo, en dúo o en equipo de hasta cuatro jugadores. 
+            l comienzo de una partida, se inicia en un lobby común donde todos los jugadores eligen una habilidad especial que, 
+            va desde poder crear una zona de curación hasta poder desplegar una torreta. Una vez que el temporizador llega a cero, 
+            la partida comienza con todos los jugadores encima de un avión que vuela en línea recta por el mapa . 
+            Esta ruta de vuelo cambia cada juego. Cada equipo recibe automáticamente un líder de salto que decide cuándo y dónde aterrizará el equipo, 
+            pero el jugador puede elegir no seguirlo y saltar en el momento que desee sin seguir a los demás.4? Al comienzo del juego, 
+            cada jugador lleva solo un cuchillo. El mapa está lleno de armas, 
+            vehículos y elementos que los jugadores pueden usar para mejorar sus posibilidades de matar enemigos mientras se mantienen con vida. 
+            La zona segura en el mapa se reduce a medida que avanza el juego, y los jugadores que permanecen fuera de la zona mueren. 
+            Un equipo gana el juego si es el último que queda vivo.
+
+            Posteriormente se agregó el modo Classic Alcatraz donde 10 equipos de 4 jugadores se enfrentan en el mapa con 5 posibilidades de regresar al combate como en Call of Duty: Black Ops 4</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Mensajes  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="img/descarga.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Todo Capa 111 <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
+                <p>Muchas gracias me a ayudado estas tecnicas.</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/580b57fcd9996e24bc43c29d.png" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>CHULS 320 <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
+                <p>estoy muy satisfecho por lo que veo :)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Packs de las mejores armas de Call of Duty</h3>
+          <h5>Utilízalas y notaras la diferencia <span class="w3-opacity">@Todo Rojo</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/Captura_de_pantalla__249_-removebg-preview.png" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>Ponlas en practica</strong>y serás un Legendario</p>
+          <p>Todas las armas de Call of Duty Mobile son extraídas de juegos de la saga Call of Duty como Black Ops, Modern Warfare, Advance Warfare, 
+            etc; en estas armas se puede tener la posibilidad de desbloquear el camuflaje de oro, al completar los desafíos del arma deseada, 
+            se desbloquea el platino cuando toda la categoría de armas como Subfusiles y todas las armas pertenecientes a esta hallan 
+            desbloqueado se camuflaje de oro, se obtiene el camuflaje de damasco cuando todas las armas se hallan conseguido el camuflaje de oro, 
+            esta mecánica de juego se estreno con Call of Duty: Modern Warfare</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Mensajes  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="Yair Demo" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/png-clipart-call-of-duty-call-of-duty.png" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Heimdall<span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+                <p>Que buen combo de armas</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/580b57fcd9996e24bc43c29d.png" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>fiel <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+                <p>No dejare de usar estas armas gracias</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/-41606476138orpfh1ws3t-removebg-preview.png" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Frey 22 <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+                <p>gracias fue de mucha ayuda</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="img/182-1823626_karakter-cod-karakter-call-of-duty-mobile-png-removebg-preview.png" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>deja tusmensajes buenos porfa</h4>
+          <p>Y comparte esto con otros para que sea mas competitivo este juego</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Post de los mejores fieles</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="img/1366_2000.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Shuls 22</span>
+            <br>
+            <span>voy acompartir esta pagina me parece muy buena</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/descarga.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Todo capa 111</span>
+            <br>
+            <span>gracias ahora soy el mejor de la región de Call of Duty</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/80e0f7fa4c85e366d8b3e482e833c6fd.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Yair Demo 22</span>
+            <br>
+            <span>me volvi trol con estas armas</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/80e0f7fa4c85e366d8b3e482e833c6fd.png" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">The Donato ff</span>
+            <br>
+            <span>me parece increíble esta pagina</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+     
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">que es</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">m4</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tokio</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">jugabilidad</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">fenec</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Odin</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">packs de armas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">call of duty</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Regresar</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">mensajes</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">legendario</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Dizfras</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">compartir</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">victoria</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>lo mejor de Call of Duty</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="img/-41606476138orpfh1ws3t-removebg-preview.png" alt="Jeans" style="width:100%"></p>
+            <p><img src="img/80e0f7fa4c85e366d8b3e482e833c6fd.png" alt="Jeans" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="img/1366_2000.jpeg" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="img/371441561568825955.jpg" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>sigueme en estas redes</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "? Liked";
+}
+</script>
+
+</body>
+</html>
